@@ -1,5 +1,12 @@
 $textColor:#b4b4b4;
 $backgroundColor:#ffffff;
+$fontfamily:'Lucida Sans',
+'Lucida Sans Regular',
+'Lucida Grande',
+'Lucida Sans Unicode',
+Geneva,
+Verdana,
+sans-serif;
 .header {
     background: $backgroundColor;
     display: flex;
@@ -34,27 +41,63 @@ $backgroundColor:#ffffff;
     height: 38em;
     background-image: linear-gradient(#c8c8cc, #f3f6f6);
     display: flex;
-    flex-flow: column wrap;
-    font-weight: bold;
-    text-align: center;
+    // flex-flow: column wrap;
+    // font-weight: bold;
+    // text-align: center;
+    // align-items: stretch;
 }
 
 .main-landingpage>* {
     padding: 10px;
-    flex: 1 100%;
+    // flex: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wrap-content-left {
+    margin: 10em 10em 0 15em;
 }
 
 .text-div {
+    flex-grow: 1;
     border: rgba(243, 223, 113, 0.555) solid;
 }
 
+.inner-upper-text-div {
+    font-size: 1.5em;
+    text-align: left;
+    font-family: $fontfamily;
+}
+
+.inner-upper-text-div>p {
+    margin-bottom: 1px;
+}
+
+.inner-middle-text-div>p {
+    margin-bottom: 1px;
+}
+
 .picture-div {
+    flex-grow: 20;
     border: rgba(132, 245, 132, 0.459) solid;
     // img {
     //     align-items: flex-end;
     //     max-width: 100%;
     //     height: auto;
     // }
+}
+
+.aboutMe-btn {
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #000000;
 }
 
 @media all and (max-width: 800px) {
