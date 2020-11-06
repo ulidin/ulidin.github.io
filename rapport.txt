@@ -1,0 +1,60 @@
+där du beskriver:
+Scrum, 
+grafisk profil och 
+tillgänglighet 
+
+så att jag kan se att du förstår dessa begrepp.
+
+Scrum:
+--------
+Scrum är ett ramverk som implementerar det Agila tankesättet.
+
+I Scrum kretsar utveklingen kring tre roller:
+---------------------------------------------
+
+- Product owner (produktägare)
+Tar emot, hanterar och prioriterar önskemål om tillägg och ändringar för en produkt. Produktägaren måste vara en fysisk person.
+
+- Scrum master (scrummästare)
+Fungerar som coach för teamet. Säkerställer efterlevnad av processen, synkroniserar mellan aktörer samt avlägsnar hinder för utvecklargruppen. Är ingen direkt ledarroll.
+
+- Development team (utvecklingsteam)
+Utvecklingsteamet är självorganiserande. Det är bra om den täcker så mycket som möjligt av kompetensbehovet. Gruppen bör bestå av 3-9 personer.*
+
+
+Momenten inom Scrum:
+-------------------- 
+
+-Product backlog
+En samlingsplats för alla önskemål om förändringar av produkten. Ägs och hanteras av produktägaren. Det finns ingen begränsning på antal önskemål. I stället används prioritering. Ju högre prioritet, desto bättre specificerat ska ändringsönskemålet vara.
+
+-Sprint backlog
+Den del av en Product backlog som utvecklingsteamet åtar sig att implementera under den kommande sprinten samt den plan som de formulerat för hur de ska göra det.
+
+-Increment (Inkrementet)
+Det som skapas i varje sprint. Dvs en existerande körbar produkt som fått ett tillskott av nya egenskaper eller funktioner. Inkrementet är centralt i Scrum. Hela ramverket bygger på att man skapar total transparens i varje sprint. Genom att granska inkrementet och produktbackloggen kan man komma fram till hur man ligger till och vad som är bäst att göra härnäst.
+
+-Sprint
+Arbetet delas in i sprintar. Varje sprint, som är mellan 3 och 30 dagar lång, inleds med en planeringssession (Sprint planning) och avslutas med en granskning av genomförda aktiviteter (Sprint review). För att skapa arbetsro undviker man att ändra aktiviteterna som planerats.[4] Under sprinten sker dagligen Daily scrums. Som sista punkt i en sprint äger en förbättringsaktivitet rum (Sprint retrospective).
+
+-Daily scrum
+Ett kort planeringsmöte för utvecklingsteamet. Det får ta maximalt 15 minuter. Utvecklingsteamet inspekterar sin progress så här långt i sprinten och uppdaterar sina planer för resten av sprinten så att de maximerar sina chanser att uppnå sina mål. Ett vanligt sätt att hålla en daily Scrum är att man använder sig av tre frågor
+
+Vad har jag gjort sedan igår?
+Vad ska jag åstadkomma till imorgon?
+Vad hindrar mig?
+
+-Sprint review
+En från dag ett inplanerad granskning av sprintens resultat. Under granskningen redovisas först status för de i sprinten inplanerade sakerna, därefter demonstreras klar funktionalitet för produktägare, kunder och andra inbjudna intressenter. Syftet är att få in granskningskommentarer från alla deltagare. Speciellt är man intresserad av att veta vad som är klart och inte. Därefter redovisar produktägaren sina planer för framtiden i form av sin produktbacklog och även denna granskas av alla deltagare.
+
+Resultatet av en sprintgranskning är en ny och uppdaterad produktbacklog som avspeglar alla deltagares bästa uppfattning om hur man ligger till och vad som ska göras härnäst.
+
+-Sprint retrospective
+Alla gruppmedlemmar samt Scrum master och produktägare arbetar tillsammans för att lära sig från sprinten som gått. Förbättringar i arbetssättet identifieras, och ett antal saker väljs ut och åtgärdas i kommande sprint.
+
+-Sprint planning
+Ett möte där alla ändringsönskemål gås igenom av produktägaren för hela scrum-gruppen. Gruppen bryter ned kraven och estimerar sedan alla aktiviteterna. Slutligen vägs tidsestimaten mot tillgänglig tid och de ändringsönskemål, prioriterade av produktägaren, som gruppen åtar sig att införa under sprinten fastställs och benämns Sprint backlog.
+=======================================================================================================================================================
+
+Grafisk profil:
+---------------

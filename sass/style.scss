@@ -7,6 +7,11 @@ $fontfamily:'Lucida Sans',
 Geneva,
 Verdana,
 sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background: $backgroundColor;
     display: flex;
@@ -22,19 +27,21 @@ sans-serif;
     margin: 0;
     // background: deepskyblue;
     background: $backgroundColor;
-}
-
-.navigation a {
-    text-decoration: none;
-    display: block;
-    padding: 0.5em;
-    color: $textColor;
-}
-
-.navigation a:hover {
-    // background: #1565C0;
-    background: #c8c8cc;
-    color: #ffffff;
+    a {
+        text-decoration: none;
+        display: block;
+        padding: 0.5em;
+        color: $textColor;
+        &:hover {
+            // background: #1565C0;
+            background: #c8c8cc;
+            color: #ffffff;
+        }
+    }
+    .active {
+        background-color: #b4b4b6;
+        color: #ffffff;
+    }
 }
 
 .main-landingpage {
@@ -59,8 +66,9 @@ sans-serif;
 }
 
 .text-div {
-    flex-grow: 1;
+    // flex-grow: ;
     border: rgba(243, 223, 113, 0.555) solid;
+    width: 60%;
 }
 
 .inner-upper-text-div {
@@ -77,16 +85,14 @@ sans-serif;
     margin-bottom: 1px;
 }
 
-.picture-div {
-    flex-grow: 20;
-    border: rgba(132, 245, 132, 0.459) solid;
-    // img {
-    //     align-items: flex-end;
-    //     max-width: 100%;
-    //     height: auto;
-    // }
-}
-
+// .picture-div {
+//     // flex-grow: 40%;
+//     border: rgba(132, 245, 132, 0.459) solid;
+//     background-image: url(/pictures/20201105_103741_Georgios1.png);
+//     background-position: top;
+//     width: 40%;
+//     background-repeat: no-repeat;
+// }
 .aboutMe-btn {
     border: none;
     color: white;
@@ -113,9 +119,9 @@ sans-serif;
     // .main-landingpage {
     //     order: 2;
     // }
-    .picture-div {
-        order: 3;
-    }
+    // .picture-div {
+    //     order: 3;
+    // }
     // .footer  { order: 4; }
     .inner-middle-text-div {
         font-style: italic;
@@ -136,7 +142,13 @@ sans-serif;
     .navigation li:last-of-type a {
         border-bottom: none;
     }
-    .aside {
-        flex: 1 0 0;
+    // .aside {
+    //     flex: 1 0 0;
+    // }
+}
+
+.education {
+    p {
+        column-count: 3;
     }
 }

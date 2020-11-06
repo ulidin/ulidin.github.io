@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background: #ffffff;
   display: flex;
@@ -26,6 +31,11 @@
   color: #ffffff;
 }
 
+.navigation .active {
+  background-color: #b4b4b6;
+  color: #ffffff;
+}
+
 .main-landingpage {
   height: 38em;
   background-image: linear-gradient(#c8c8cc, #f3f6f6);
@@ -43,8 +53,8 @@
 }
 
 .text-div {
-  flex-grow: 1;
   border: rgba(243, 223, 113, 0.555) solid;
+  width: 60%;
 }
 
 .inner-upper-text-div {
@@ -59,11 +69,6 @@
 
 .inner-middle-text-div > p {
   margin-bottom: 1px;
-}
-
-.picture-div {
-  flex-grow: 20;
-  border: rgba(132, 245, 132, 0.459) solid;
 }
 
 .aboutMe-btn {
@@ -89,9 +94,6 @@
   .text-div {
     order: 1;
   }
-  .picture-div {
-    order: 3;
-  }
   .inner-middle-text-div {
     font-style: italic;
   }
@@ -111,8 +113,9 @@
   .navigation li:last-of-type a {
     border-bottom: none;
   }
-  .aside {
-    flex: 1 0 0;
-  }
+}
+
+.education p {
+  column-count: 3;
 }
 /*# sourceMappingURL=style.css.map */
