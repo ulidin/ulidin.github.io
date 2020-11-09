@@ -12,11 +12,15 @@ sans-serif;
     padding: 0;
 }
 
-.header {
+@mixin header {
     background: $backgroundColor;
     display: flex;
     display: block;
     padding: 3em;
+}
+
+.header {
+    @include header;
 }
 
 h1 {
@@ -25,7 +29,7 @@ h1 {
     text-align: center;
 }
 
-.navigation {
+@mixin navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -33,13 +37,16 @@ h1 {
     margin: 0;
     // background: deepskyblue;
     background: $backgroundColor;
+}
+
+.navigation {
+    @include navigation;
     a {
         text-decoration: none;
         display: block;
         padding: 0.5em;
         color: $textColor;
         &:hover {
-            // background: #1565C0;
             background: #c8c8cc;
             color: #ffffff;
         }
@@ -137,14 +144,4 @@ h1 {
 
 //--------------------------------------------------------------
 @import "style_education.scss";
-// .main-eductionpage {
-//     height: 38em;
-//     background-image: linear-gradient(#c8c8cc, #f3f6f6);
-//     display: grid;
-//     grid-template-columns: 1fr 2fr;
-// }
-// .education {
-//     p {
-//         column-count: 2;
-//     }
-// }
+@import "style_portfolio.scss";
