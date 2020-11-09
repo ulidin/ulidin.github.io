@@ -1,0 +1,44 @@
+    $backgroundImageColorOne:#b4b4b4;
+    $backgroundImageColorTwo:#c8c8cc;
+    $fixedPadding:20px;
+    .main-educationpage {
+        background-image: linear-gradient(#c8c8cc, #495555);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px 10px;
+        grid-template-areas: "about lia" "education lia" "education lia" "education post_education" "education post_education" "education post_education";
+    }
+    
+    .about-school {
+        padding: $fixedPadding;
+        background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+        grid-area: about;
+    }
+    
+    .lia {
+        padding: $fixedPadding;
+        background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+        grid-area: lia;
+    }
+    
+    .education {
+        padding: $fixedPadding;
+        background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+        grid-area: education;
+        .education-h4 {
+            padding-top: 15px;
+        }
+    }
+    
+    .post_education {
+        padding: $fixedPadding;
+        background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+        grid-area: post_education;
+    }
+    
+    h2,
+    h3,
+    h4 {
+        padding-bottom: 5px;
+    }

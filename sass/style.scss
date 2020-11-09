@@ -135,15 +135,16 @@ h1 {
     }
 }
 
-.main-eductionpage {
-    height: 38em;
-    background-image: linear-gradient(#c8c8cc, #f3f6f6);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.education {
-    p {
-        column-count: 2;
-    }
-}
+//--------------------------------------------------------------
+@import "style_education.scss";
+// .main-eductionpage {
+//     height: 38em;
+//     background-image: linear-gradient(#c8c8cc, #f3f6f6);
+//     display: grid;
+//     grid-template-columns: 1fr 2fr;
+// }
+// .education {
+//     p {
+//         column-count: 2;
+//     }
+// }
