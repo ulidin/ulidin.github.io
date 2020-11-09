@@ -10,6 +10,12 @@
   padding: 3em;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -44,11 +50,10 @@
 
 .main-landingpage > * {
   padding: 10px;
-  display: flex;
-  flex-flow: row wrap;
+  display: block;
 }
 
-.wrap-content-left {
+.wrap-content {
   margin: 10em 10em 0 15em;
 }
 
@@ -115,7 +120,14 @@
   }
 }
 
+.main-eductionpage {
+  height: 38em;
+  background-image: linear-gradient(#c8c8cc, #f3f6f6);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .education p {
-  column-count: 3;
+  column-count: 2;
 }
 /*# sourceMappingURL=style.css.map */

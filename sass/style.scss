@@ -19,6 +19,12 @@ sans-serif;
     padding: 3em;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -57,11 +63,11 @@ sans-serif;
 .main-landingpage>* {
     padding: 10px;
     // flex: 100%;
-    display: flex;
-    flex-flow: row wrap;
+    display: block;
+    // flex-flow: row wrap;
 }
 
-.wrap-content-left {
+.wrap-content {
     margin: 10em 10em 0 15em;
 }
 
@@ -85,14 +91,6 @@ sans-serif;
     margin-bottom: 1px;
 }
 
-// .picture-div {
-//     // flex-grow: 40%;
-//     border: rgba(132, 245, 132, 0.459) solid;
-//     background-image: url(/pictures/20201105_103741_Georgios1.png);
-//     background-position: top;
-//     width: 40%;
-//     background-repeat: no-repeat;
-// }
 .aboutMe-btn {
     border: none;
     color: white;
@@ -116,13 +114,6 @@ sans-serif;
     .text-div {
         order: 1;
     }
-    // .main-landingpage {
-    //     order: 2;
-    // }
-    // .picture-div {
-    //     order: 3;
-    // }
-    // .footer  { order: 4; }
     .inner-middle-text-div {
         font-style: italic;
     }
@@ -142,13 +133,17 @@ sans-serif;
     .navigation li:last-of-type a {
         border-bottom: none;
     }
-    // .aside {
-    //     flex: 1 0 0;
-    // }
+}
+
+.main-eductionpage {
+    height: 38em;
+    background-image: linear-gradient(#c8c8cc, #f3f6f6);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .education {
     p {
-        column-count: 3;
+        column-count: 2;
     }
 }
