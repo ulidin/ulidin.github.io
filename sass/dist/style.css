@@ -40,19 +40,15 @@ h4 {
   padding-bottom: 5px;
 }
 
-.mail-to-me {
-  background-image: url("/pictures/email-5-512.png");
-  background-repeat: no-repeat;
-}
-.mail-to-me a {
-  height: 100%;
-  width: 100%;
+.mail-to-me a,
+.mail-to-me h1,
+.mail-to-me h2 {
   display: flex;
-  position: fixed;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
-  justify-content: center;
-  font-size: 5em;
+  font-size: 2em;
+  color: #04cccc;
 }
 
 * {
