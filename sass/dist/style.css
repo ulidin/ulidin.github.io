@@ -1,3 +1,60 @@
+.main-educationpage {
+  background-image: linear-gradient(#c8c8cc, #495555);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas: "about lia" "education lia" "education lia" "education post_education" "education post_education" "education post_education";
+}
+
+.about-school {
+  padding: 20px;
+  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  grid-area: about;
+}
+
+.lia {
+  padding: 20px;
+  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  grid-area: lia;
+}
+
+.education {
+  padding: 20px;
+  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  grid-area: education;
+}
+.education .education-h4 {
+  padding-top: 15px;
+}
+
+.post_education {
+  padding: 20px;
+  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  grid-area: post_education;
+}
+
+h2,
+h3,
+h4 {
+  padding-bottom: 5px;
+}
+
+.mail-to-me {
+  background-image: url("/pictures/email-5-512.png");
+  background-repeat: no-repeat;
+}
+.mail-to-me a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 5em;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -119,45 +176,4 @@ h1 {
   .navigation li:last-of-type a {
     border-bottom: none;
   }
-}
-.main-educationpage {
-  background-image: linear-gradient(#c8c8cc, #495555);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 10px 10px;
-  grid-template-areas: "about lia" "education lia" "education lia" "education post_education" "education post_education" "education post_education";
-}
-
-.about-school {
-  padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
-  grid-area: about;
-}
-
-.lia {
-  padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
-  grid-area: lia;
-}
-
-.education {
-  padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
-  grid-area: education;
-}
-.education .education-h4 {
-  padding-top: 15px;
-}
-
-.post_education {
-  padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
-  grid-area: post_education;
-}
-
-h2,
-h3,
-h4 {
-  padding-bottom: 5px;
 }

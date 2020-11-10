@@ -1,0 +1,14 @@
+.mail-to-me {
+    background-image: url("/pictures/email-5-512.png");
+    background-repeat: no-repeat;
+    a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        font-size: 5em;
+    }
+}
