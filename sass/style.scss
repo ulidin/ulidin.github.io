@@ -1,6 +1,7 @@
 @import "style_education.scss";
 @import "style_portfolio.scss";
 @import "contact_me.scss";
+@import "about_me.scss";
 $textColor:#b4b4b4;
 $backgroundColor:#ffffff;
 $fontfamily:'Lucida Sans',
@@ -64,10 +65,6 @@ h1 {
     height: 38em;
     background-image: linear-gradient(#c8c8cc, #f3f6f6);
     display: flex;
-    // flex-flow: column wrap;
-    // font-weight: bold;
-    // text-align: center;
-    // align-items: stretch;
 }
 
 .main-landingpage>* {
