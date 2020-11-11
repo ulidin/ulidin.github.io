@@ -1,10 +1,32 @@
-.mail-to-me a,
-.mail-to-me h1,
-.mail-to-me h2 {
+.main-contact-me {
+  height: 12em;
+  background-image: linear-gradient(#c8c8cc, #f3f6f6);
+  padding: 200px;
+}
+.main-contact-me .section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  font-size: 2em;
-  color: #04cccc;
+  padding: 50px 170px;
+}
+.main-contact-me .section_title {
+  flex-shrink: 0;
+  width: 200px;
+  margin-right: 70px;
+  color: #007bff;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.main-contact-me .section__content {
+  font-weight: 300;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 400px;
+  text-decoration: none !important;
+  color: #000000;
+}
+.main-contact-me .section__content a:link {
+  margin-top: 0;
+  margin-bottom: 25px;
 }
