@@ -209,12 +209,10 @@ h1 {
   .main-landingpage {
     flex: 3 0px;
   }
-  .text-div {
-    order: 1;
-  }
-  .inner-middle-text-div {
-    font-style: italic;
-  }
+}
+
+.inner-middle-text-div {
+  font-style: italic;
 }
 
 @media all and (max-width: 600px) {
