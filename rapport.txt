@@ -86,11 +86,15 @@ D.v.s. Design för alla eller universell utformning.
 
 
 
+https://www.w3.org/WAI/standards-guidelines/wcag/
+
 På denna site används dessa tillgängligheter:
 
-Guideline 1.4 – Distinguishable
+- Guideline 1.4 – Distinguishable:
     1.4.4 Resize text Level AA
 
-
-Guideline 2.1 – Keyboard Accessible
+- Guideline 2.1 – Keyboard Accessible:
     2.1.2 No Keyboard Trap Level A
+
+- Guideline 2.4 – Navigable:
+    2.4.2 Page Titled Level A

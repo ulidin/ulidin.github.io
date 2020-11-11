@@ -9,7 +9,7 @@
 
 .about-school {
   padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  background-image: linear-gradient(#d1dee2, #e4edf0);
   grid-area: about;
 }
 
@@ -19,7 +19,7 @@
 
 .lia {
   padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  background-image: linear-gradient(#d1dee2, #e4edf0);
   grid-area: lia;
 }
 
@@ -29,7 +29,7 @@
 
 .education {
   padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  background-image: linear-gradient(#d1dee2, #e4edf0);
   grid-area: education;
 }
 
@@ -43,7 +43,7 @@
 
 .post_education {
   padding: 20px;
-  background-image: linear-gradient(#b4b4b4, #c8c8cc);
+  background-image: linear-gradient(#d1dee2, #e4edf0);
   grid-area: post_education;
 }
 
