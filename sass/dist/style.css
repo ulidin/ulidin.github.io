@@ -82,7 +82,6 @@ h4 {
 }
 
 .section_title {
-  -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 200px;
   margin-right: 70px;
@@ -157,7 +156,7 @@ h1 {
 }
 
 .wrap-content {
-  margin: 10em 10em 0 15em;
+  margin: 10em 10em 0 40em;
 }
 
 .text-div {
@@ -166,9 +165,10 @@ h1 {
 }
 
 .inner-upper-text-div {
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: left;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
 }
 
 .inner-upper-text-div > p {
@@ -177,6 +177,7 @@ h1 {
 
 .inner-middle-text-div > p {
   margin-bottom: 1px;
+  padding-bottom: 10px;
 }
 
 .aboutMe-btn {

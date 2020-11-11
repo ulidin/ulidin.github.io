@@ -7,7 +7,6 @@
 }
 
 .section_title {
-  -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 200px;
   margin-right: 70px;

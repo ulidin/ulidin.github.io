@@ -69,13 +69,11 @@ h1 {
 
 .main-landingpage>* {
     padding: 10px;
-    // flex: 100%;
     display: block;
-    // flex-flow: row wrap;
 }
 
 .wrap-content {
-    margin: 10em 10em 0 15em;
+    margin: 10em 10em 0 40em;
 }
 
 .text-div {
@@ -85,9 +83,10 @@ h1 {
 }
 
 .inner-upper-text-div {
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: left;
     font-family: $fontfamily;
+    padding-bottom: 10px;
 }
 
 .inner-upper-text-div>p {
@@ -96,6 +95,7 @@ h1 {
 
 .inner-middle-text-div>p {
     margin-bottom: 1px;
+    padding-bottom: 10px;
 }
 
 .aboutMe-btn {
@@ -118,28 +118,31 @@ h1 {
     .main-landingpage {
         flex: 3 0px;
     }
-    .text-div {
-        order: 1;
-    }
-    .inner-middle-text-div {
-        font-style: italic;
-    }
+    // .text-div {
+    //     order: 1;
 }
 
+.inner-middle-text-div {
+    font-style: italic;
+}
+
+
+}
 @media all and (max-width: 600px) {
     .navigation {
         flex-flow: column wrap;
         padding: 0;
     }
+    
     .navigation a {
         text-align: center;
         padding: 10px;
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
+    
     .navigation li:last-of-type a {
         border-bottom: none;
     }
 }
-
 //--------------------------------------------------------------
