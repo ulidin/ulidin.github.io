@@ -13,10 +13,18 @@
   grid-area: about;
 }
 
+.about-school *:hover {
+  font-size: 30px;
+}
+
 .lia {
   padding: 20px;
   background-image: linear-gradient(#b4b4b4, #c8c8cc);
   grid-area: lia;
+}
+
+.lia *:hover {
+  font-size: 30px;
 }
 
 .education {
@@ -29,10 +37,18 @@
   padding-top: 15px;
 }
 
+.education *:hover {
+  font-size: 30px;
+}
+
 .post_education {
   padding: 20px;
   background-image: linear-gradient(#b4b4b4, #c8c8cc);
   grid-area: post_education;
+}
+
+.post_education *:hover {
+  font-size: 30px;
 }
 
 h2,
@@ -97,14 +113,18 @@ h4 {
   letter-spacing: 2px;
 }
 
-.section__content {
+.section_content {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 100%;
   max-width: 400px;
 }
 
-.section__content p {
+.section_content *:hover {
+  font-size: 30px;
+}
+
+.section_content p {
   margin-top: 0;
   margin-bottom: 25px;
 }

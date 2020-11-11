@@ -1,3 +1,9 @@
+@mixin zoomin {
+    *:hover {
+        font-size: 30px;
+    }
+}
+
 .main-about-me {
     height: 12em;
     background-image: linear-gradient(#c8c8cc, #f3f6f6);
@@ -17,21 +23,14 @@
     letter-spacing: 2px;
 }
 
-.section__content {
+.section_content {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 100%;
     max-width: 400px;
+    @include zoomin;
     p {
         margin-top: 0;
         margin-bottom: 25px;
     }
 }
-
-// p {
-//     display: block;
-//     margin-block-start: 1em;
-//     margin-block-end: 1em;
-//     margin-inline-start: 0px;
-//     margin-inline-end: 0px;
-// }

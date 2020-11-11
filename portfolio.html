@@ -20,45 +20,43 @@
     </header>
     <nav>
         <ul class="navigation">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about_me.html">ABOUT</a></li>
-            <li><a class="active" href="portfolio.html">PORTFOLIO</a></li>
-            <li><a href="education.html">EDUCATION</a></li>
+            <li><a tabindex="1" href="index.html">HOME</a></li>
+            <li><a tabindex="2" href="about_me.html">ABOUT</a></li>
+            <li><a tabindex="3" class="active" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a tabindex="4" href="education.html">EDUCATION</a></li>
             <!-- <li><a href="skills.html">SKILLS</a></li> -->
-            <li><a href="contact_me.html">CONTACT ME</a></li>
+            <li><a tabindex="5" href="contact_me.html">CONTACT ME</a></li>
         </ul>
     </nav>
 
     <div class="main-landingpage">
         <div class="container mt-3">
-            <div class="media border p-3">
+            <div tabindex="6" class="media border p-3">
                 <img src="/pictures/Yatzy.PNG" alt="Yatzy" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                 <div class="media-body">
                     <h4>Yatzy </a><small><i>Posted on October 15, 2020</i></small></h4>
                     <p>This is an Yatzy game for 1 to 4 person.</p>
-                    <a href="https://github.com/ulidin/my_projects/tree/master/Grupparbeten/Yatzy"><button type="button" class="btn btn-outline-primary yatzy-game">Click to view code</button></a>
+                    <a tabindex="-1" href="https://github.com/ulidin/my_projects/tree/master/Grupparbeten/Yatzy"><button tabindex="7" type="button" class="btn btn-outline-primary yatzy-game">Click to view code</button></a>
                 </div>
             </div>
-            <div class="media border p-3">
+            <div tabindex="8" class="media border p-3">
                 <img src="/pictures/Quiz Challenge.PNG" alt="Quiz Challenge" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                 <div class="media-body">
                     <h4>Quiz Challenge <small><i>Posted on October 13, 2020</i></small></h4>
                     <p>This is a quiz game. Where the questions is fetched via an API.</p>
-                    <a href="https://github.com/ulidin/my_projects/tree/master/Individuell%20uppgift"><button type="button" class="btn btn-outline-secondary">Click to view code</button></a>
+                    <a tabindex="-1" href="https://github.com/ulidin/my_projects/tree/master/Individuell%20uppgift"><button tabindex="9" type="button" class="btn btn-outline-secondary">Click to view code</button></a>
                 </div>
             </div>
-            <div class="media border p-3">
+            <div tabindex="10" class="media border p-3">
                 <img src="/pictures/ACME_Event.PNG" alt="ACME Event" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                 <div class="media-body">
                     <h4>ACME Event <small><i>Posted on October 31, 2020</i></small></h4>
                     <p>This is a fiction ACME Event site.</p>
-                    <button type="button" class="btn btn-outline-success">Click to view code</button>
+                    <button tabindex="11" type="button" class="btn btn-outline-success">Click to view code</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <script src="/js/index.js"></script>
 </body>
 
 </html>

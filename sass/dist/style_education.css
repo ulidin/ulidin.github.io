@@ -12,11 +12,17 @@
   background-image: linear-gradient(#b4b4b4, #c8c8cc);
   grid-area: about;
 }
+.about-school *:hover {
+  font-size: 30px;
+}
 
 .lia {
   padding: 20px;
   background-image: linear-gradient(#b4b4b4, #c8c8cc);
   grid-area: lia;
+}
+.lia *:hover {
+  font-size: 30px;
 }
 
 .education {
@@ -27,11 +33,17 @@
 .education .education-h4 {
   padding-top: 15px;
 }
+.education *:hover {
+  font-size: 30px;
+}
 
 .post_education {
   padding: 20px;
   background-image: linear-gradient(#b4b4b4, #c8c8cc);
   grid-area: post_education;
+}
+.post_education *:hover {
+  font-size: 30px;
 }
 
 h2,

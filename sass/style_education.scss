@@ -1,6 +1,12 @@
     $backgroundImageColorOne:#b4b4b4;
     $backgroundImageColorTwo:#c8c8cc;
     $fixedPadding:20px;
+    @mixin zoomin {
+        *:hover {
+            font-size: 30px;
+        }
+    }
+    
     .main-educationpage {
         background-image: linear-gradient(#c8c8cc, #495555);
         display: grid;
@@ -14,12 +20,14 @@
         padding: $fixedPadding;
         background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
         grid-area: about;
+        @include zoomin;
     }
     
     .lia {
         padding: $fixedPadding;
         background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
         grid-area: lia;
+        @include zoomin;
     }
     
     .education {
@@ -29,12 +37,14 @@
         .education-h4 {
             padding-top: 15px;
         }
+        @include zoomin;
     }
     
     .post_education {
         padding: $fixedPadding;
         background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
         grid-area: post_education;
+        @include zoomin;
     }
     
     h2,

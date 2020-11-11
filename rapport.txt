@@ -83,3 +83,14 @@ D.v.s. Design för alla eller universell utformning.
 
 -Ibland är särlösningar nödvändiga, men så långt som möjligt bör de ordinarie lösningarna fungera för alla. 
 -Det blir mer inkluderande och ofta billigare och bättre för alla.
+
+
+
+På denna site används dessa tillgängligheter:
+
+Guideline 1.4 – Distinguishable
+    1.4.4 Resize text Level AA
+
+
+Guideline 2.1 – Keyboard Accessible
+    2.1.2 No Keyboard Trap Level A

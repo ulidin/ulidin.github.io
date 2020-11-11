@@ -17,14 +17,18 @@
   letter-spacing: 2px;
 }
 
-.section__content {
+.section_content {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 100%;
   max-width: 400px;
 }
 
-.section__content p {
+.section_content *:hover {
+  font-size: 30px;
+}
+
+.section_content p {
   margin-top: 0;
   margin-bottom: 25px;
 }
