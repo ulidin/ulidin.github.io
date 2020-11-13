@@ -98,3 +98,5 @@ På denna site används dessa tillgängligheter:
 
 - Guideline 2.4 – Navigable:
     2.4.2 Page Titled Level A
+
+    

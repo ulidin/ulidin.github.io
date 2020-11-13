@@ -147,7 +147,7 @@ h1 {
   text-align: center;
 }
 
-.navigation {
+#navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -156,19 +156,19 @@ h1 {
   background: #ffffff;
 }
 
-.navigation a {
+#navigation a {
   text-decoration: none;
   display: block;
   padding: 0.5em;
   color: #b4b4b4;
 }
 
-.navigation a:hover {
+#navigation a:hover {
   background: #c8c8cc;
   color: #ffffff;
 }
 
-.navigation .active {
+#navigation .active {
   background-color: #b4b4b6;
   color: #ffffff;
 }
