@@ -188,11 +188,6 @@ h1 {
   margin: 10em 10em 0 40em;
 }
 
-.text-div {
-  border: rgba(243, 223, 113, 0.555) solid;
-  width: 60%;
-}
-
 .inner-upper-text-div {
   font-size: 2em;
   text-align: left;
@@ -229,10 +224,9 @@ h1 {
   .main-landingpage {
     flex: 3 0px;
   }
-}
-
-.inner-middle-text-div {
-  font-style: italic;
+  .inner-middle-text-div {
+    font-style: italic;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -244,7 +238,7 @@ h1 {
     text-align: center;
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(70, 18, 18, 0.1);
   }
   .navigation li:last-of-type a {
     border-bottom: none;
