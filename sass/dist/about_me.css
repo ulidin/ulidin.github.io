@@ -1,5 +1,4 @@
 .main-about-me {
-  height: 12em;
   background-image: linear-gradient(#c8c8cc, #f3f6f6);
   display: flex;
   justify-content: center;
@@ -29,4 +28,24 @@
 .section_content p {
   margin-top: 0;
   margin-bottom: 25px;
+}
+
+@media all and (max-width: 500px) {
+  .main-about-me {
+    display: block;
+    padding: 20px;
+  }
+
+  .section_title {
+    display: block;
+  }
+
+  .section_content {
+    display: block;
+    font-size: 1rem;
+  }
+  .section_content p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
