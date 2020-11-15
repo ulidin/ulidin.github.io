@@ -22,11 +22,39 @@
             font-size: 1rem;
             width: 100%;
             max-width: 400px;
-            text-decoration: none!important;
             color: #000000;
             a:link {
+                text-decoration: none!important;
                 margin-top: 0;
                 margin-bottom: 25px;
+            }
+        }
+    }
+    
+    @media all and (max-width: 500px) {
+        .main-contact-me {
+            height: 8em;
+            display: block;
+            padding: 10px;
+            .section,
+            .email-div,
+            .linkedin-div {
+                display: box;
+                padding: 10px;
+            }
+            .section_title {
+                width: 100px;
+                display: block;
+                font-size: 0.8rem;
+            }
+            .section_content {
+                display: block;
+                font-size: 0.8rem;
+                a {
+                    text-decoration: none!important;
+                    margin-top: 15px;
+                    margin-bottom: 25px;
+                }
             }
         }
     }

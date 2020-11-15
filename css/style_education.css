@@ -57,7 +57,7 @@ h4 {
   padding-bottom: 5px;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   .main-educationpage {
     background-image: linear-gradient(#c8c8cc, #495555);
     display: grid;

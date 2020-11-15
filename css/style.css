@@ -57,7 +57,7 @@ h4 {
   padding-bottom: 5px;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   .main-educationpage {
     background-image: linear-gradient(#c8c8cc, #495555);
     display: grid;
@@ -131,13 +131,41 @@ h4 {
   font-size: 1rem;
   width: 100%;
   max-width: 400px;
-  text-decoration: none !important;
   color: #000000;
 }
 
 .main-contact-me .section__content a:link {
+  text-decoration: none !important;
   margin-top: 0;
   margin-bottom: 25px;
+}
+
+@media all and (max-width: 500px) {
+  .main-contact-me {
+    height: 8em;
+    display: block;
+    padding: 10px;
+  }
+  .main-contact-me .section,
+  .main-contact-me .email-div,
+  .main-contact-me .linkedin-div {
+    display: box;
+    padding: 10px;
+  }
+  .main-contact-me .section_title {
+    width: 100px;
+    display: block;
+    font-size: 0.8rem;
+  }
+  .main-contact-me .section_content {
+    display: block;
+    font-size: 0.8rem;
+  }
+  .main-contact-me .section_content a {
+    text-decoration: none !important;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
 
 .main-about-me {
