@@ -43,7 +43,7 @@ h1 {
     background: $backgroundColor;
 }
 
-.navigation {
+#navigation {
     @include navigation;
     a {
         text-decoration: none;
@@ -112,33 +112,27 @@ h1 {
 }
 
 @media all and (max-width: 800px) {
-    .navigation {
+    #navigation {
         justify-content: space-around;
     }
     .main-landingpage {
         flex: 3 0px;
     }
-    .text-div {
-        order: 1;
-    }
-    .inner-middle-text-div {
-        font-style: italic;
-    }
 }
 
 @media all and (max-width: 600px) {
-    .navigation {
+    #navigation {
         flex-flow: column wrap;
         padding: 0;
-    }
-    .navigation a {
-        text-align: center;
-        padding: 10px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-    .navigation li:last-of-type a {
-        border-bottom: none;
+        a {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        li:last-of-type a {
+            border-bottom: none;
+        }
     }
 }
 
