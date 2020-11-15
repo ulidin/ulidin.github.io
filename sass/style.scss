@@ -1,8 +1,8 @@
 //This is the main SCSS file
 @import "style_education.scss";
-@import "style_portfolio.scss";
 @import "contact_me.scss";
 @import "about_me.scss";
+//Declare variables
 $textColor:#b4b4b4;
 $backgroundColor:#ffffff;
 $fontfamily:'Lucida Sans',
@@ -17,6 +17,7 @@ sans-serif;
     padding: 0;
 }
 
+//define style for reusing
 @mixin header {
     background: $backgroundColor;
     display: flex;
@@ -24,6 +25,7 @@ sans-serif;
     padding: 3em;
 }
 
+//Include the defined style
 .header {
     @include header;
 }
@@ -61,12 +63,19 @@ h1 {
     }
 }
 
-@keyframes colorChange {
-    from {
+//Animation code
+@keyframes change {
+    0% {
         background-color: #c9c5c5;
     }
-    to {
-        background-color: #ebe4e4;
+    25% {
+        background-color: #1570c573;
+    }
+    50% {
+        background-color: #bf15c541;
+    }
+    100% {
+        background-color: #5dd63e73;
     }
 }
 
@@ -74,8 +83,6 @@ h1 {
     height: 38em;
     background-image: linear-gradient(#c8c8cc, #f3f6f6);
     display: flex;
-    animation-name: colorChange;
-    animation-duration: 4s;
     >* {
         padding: 10px;
         display: block;
@@ -91,6 +98,9 @@ h1 {
     text-align: left;
     font-family: $fontfamily;
     padding-bottom: 10px;
+    //Apply the animation
+    animation-name: change;
+    animation-duration: 20s;
 }
 
 .inner-upper-text-div>p {

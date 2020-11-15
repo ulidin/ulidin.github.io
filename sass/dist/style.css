@@ -253,6 +253,20 @@ h1 {
   color: #ffffff;
 }
 
+@keyframes change {
+  0% {
+    background-color: #c9c5c5;
+  }
+  25% {
+    background-color: #1570c573;
+  }
+  50% {
+    background-color: #bf15c541;
+  }
+  100% {
+    background-color: #5dd63e73;
+  }
+}
 .main-landingpage {
   height: 38em;
   background-image: linear-gradient(#c8c8cc, #f3f6f6);
@@ -272,6 +286,8 @@ h1 {
   text-align: left;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-bottom: 10px;
+  animation-name: change;
+  animation-duration: 20s;
 }
 
 .inner-upper-text-div > p {
@@ -313,7 +329,7 @@ h1 {
     font-style: italic;
   }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
   #navigation {
     flex-flow: column wrap;
     padding: 0;

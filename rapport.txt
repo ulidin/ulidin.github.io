@@ -14,16 +14,20 @@ portfolio:
 education:
 - används grid
 
-- transition använder jag  på alla sidor.
+- CSS Transition använder jag  på alla sidor.
 :hover
+
+-  CSS Animations använder jag på landing Page
+På Texten "Hello My NAME..." byter till olika färger
 
 Använder även:
 --------------
 - SASS
 - media queries 
-- mixin
+- @mixin
+- @include
 - variabler
-- import
+- @import
 
 
 https://www.w3.org/WAI/standards-guidelines/wcag/
