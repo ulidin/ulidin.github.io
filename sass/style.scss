@@ -64,11 +64,10 @@ h1 {
     height: 38em;
     background-image: linear-gradient(#c8c8cc, #f3f6f6);
     display: flex;
-}
-
-.main-landingpage>* {
-    padding: 10px;
-    display: block;
+    >* {
+        padding: 10px;
+        display: block;
+    }
 }
 
 .wrap-content {
@@ -105,11 +104,14 @@ h1 {
 }
 
 @media all and (max-width: 800px) {
-    .navigation {
+    #navigation {
         justify-content: space-around;
     }
     .main-landingpage {
         flex: 3 0px;
+    }
+    .wrap-content {
+        margin: 10em 10em 0 10em;
     }
     .inner-middle-text-div {
         font-style: italic;
@@ -117,17 +119,20 @@ h1 {
 }
 
 @media all and (max-width: 600px) {
-    .navigation {
+    #navigation {
         flex-flow: column wrap;
         padding: 0;
+        a {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-bottom: 1px solid rgba(70, 18, 18, 0.1);
+        }
+        li:last-of-type a {
+            border-bottom: none;
+        }
     }
-    .navigation a {
-        text-align: center;
-        padding: 10px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-bottom: 1px solid rgba(70, 18, 18, 0.1);
-    }
-    .navigation li:last-of-type a {
-        border-bottom: none;
+    .wrap-content {
+        margin: 5em 5em 0 2em;
     }
 }

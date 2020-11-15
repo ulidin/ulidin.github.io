@@ -52,3 +52,41 @@
     h4 {
         padding-bottom: 5px;
     }
+    
+    @media all and (max-width: 400px) {
+        .main-educationpage {
+            background-image: linear-gradient(#c8c8cc, #495555);
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            gap: 10px 10px;
+            grid-template-areas: "about" "education" "lia" "post_education";
+        }
+        .about-school {
+            padding: $fixedPadding;
+            background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+            grid-area: about;
+            @include zoomin;
+        }
+        .lia {
+            padding: $fixedPadding;
+            background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+            grid-area: lia;
+            @include zoomin;
+        }
+        .education {
+            padding: $fixedPadding;
+            background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+            grid-area: education;
+            .education-h4 {
+                padding-top: 15px;
+            }
+            @include zoomin;
+        }
+        .post_education {
+            padding: $fixedPadding;
+            background-image: linear-gradient($backgroundImageColorOne, $backgroundImageColorTwo);
+            grid-area: post_education;
+            @include zoomin;
+        }
+    }
