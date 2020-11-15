@@ -1,3 +1,4 @@
+//This is the main SCSS file
 @import "style_education.scss";
 @import "style_portfolio.scss";
 @import "contact_me.scss";
@@ -103,6 +104,7 @@ h1 {
     background-color: #000000;
 }
 
+//for screens with max width 800px
 @media all and (max-width: 800px) {
     #navigation {
         justify-content: space-around;
@@ -118,7 +120,8 @@ h1 {
     }
 }
 
-@media all and (max-width: 600px) {
+//for screens with max width 500px
+@media all and (max-width: 500px) {
     #navigation {
         flex-flow: column wrap;
         padding: 0;

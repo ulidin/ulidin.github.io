@@ -7,6 +7,7 @@
         }
     }
     
+    //Create grid
     .main-educationpage {
         background-image: linear-gradient(#c8c8cc, #495555);
         display: grid;
@@ -53,6 +54,7 @@
         padding-bottom: 5px;
     }
     
+    //for screens with max width 500px
     @media all and (max-width: 500px) {
         .main-educationpage {
             background-image: linear-gradient(#c8c8cc, #495555);

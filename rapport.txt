@@ -1,18 +1,35 @@
 
+RAPPORT OM MIN SIDA!
+=============================================
+
+Dessa tekniker använder jag:
+---------------------------------------------
 
 index, about_me, contact_me:
-anänds flexbox
+- anänds flexbox
 
 portfolio:
-anvnänds bootstrap
+- anvnänds bootstrap
 
 education:
-används grid
+- används grid
+
+- transition använder jag  på alla sidor.
+:hover
+
+Använder även:
+--------------
+- SASS
+- media queries 
+- mixin
+- variabler
+- import
 
 
 https://www.w3.org/WAI/standards-guidelines/wcag/
 
 På min portfolio sida används dessa tillgängligheter:
+-----------------------------------------------------
 
 - Guideline 1.4 – Distinguishable:
     1.4.4 Resize text Level AA
@@ -22,6 +39,19 @@ På min portfolio sida används dessa tillgängligheter:
 
 - Guideline 2.4 – Navigable:
     2.4.2 Page Titled Level A
+
+
+
+För- och nackdelar/svårigheter:
+--------------------------------
+Att använda sig av SASS är värkligen en upplyft. Det blir oftast mindre kod att skriva.
+Nackdelen kan vara att man har flera en en fil att hålla reda på.
+
+Grid är att föredra tycker jag framför flexbox, just i skrivande stund kan jag hantera dessa på ett bättre sätt.
+Krävs en vis träning innan man kna behärska dessa tekniker.
+
+Bootstrap är väldigt trevligt att anväda. Det finns mycket som är färdigt att hämta och använda. Man slipper uppfinna hjulet på nytt känns det när man änvänder bootstrap.
+Nackdelen kan vara att man låser in sig för mycket och är beroende och inte kan vara lika flexibel om det kommer nya tekniker som kan vara bettre eller man av någon anledning vill använda hellre.
 
 
 
@@ -75,7 +105,8 @@ Alla gruppmedlemmar samt Scrum master och produktägare arbetar tillsammans för
 
 -Sprint planning
 Ett möte där alla ändringsönskemål gås igenom av produktägaren för hela scrum-gruppen. Gruppen bryter ned kraven och estimerar sedan alla aktiviteterna. Slutligen vägs tidsestimaten mot tillgänglig tid och de ändringsönskemål, prioriterade av produktägaren, som gruppen åtar sig att införa under sprinten fastställs och benämns Sprint backlog.
-=======================================================================================================================================================
+
+
 
 Grafisk profil:
 ---------------
@@ -95,10 +126,10 @@ En grafisk profil har tre grundingredienser: logotyp, färger och typsnitt.
 
 
 
-Tillgänglighet
+Tillgänglighet:
 --------------
 - Tillgänglighet är centralt i Vägledningen för webbutveckling. 
-Det gäller delvis med den breda betydelsen att information och tjänster ska gå att nå (servern åtkomlig, filformatet läsbart, säkerheten god, prestanda acceptabel och så vidare).
+Det gäller delvis med den breda betydelsen att information och tjänster ska gå att nå (servern skall vara åtkomlig, filformatet skall vara läsbart, säkerheten god, acceptabel prestanda osv).
 
 - Information och tjänster ska kunna användas av alla människor oavsett till exempel funktionsnedsättning. Man kan läsa mer i ISO-standarden 26 800.
 
@@ -107,24 +138,10 @@ Det gäller delvis med den breda betydelsen att information och tjänster ska g�
 - Man skall utgå från den breda variation som finns mellan olika människors förmågor och egenskaper, snarare än att designa för en genomsnittlig användare. 
 D.v.s. Design för alla eller universell utformning. 
 
-- Man skall ta till vara hela den mångfald som präglar användarnas behov, förmågor och egenskaper. 
+- Ta till tillvara på mångfald för användarnas behov, förmågor och egenskaper. 
 
 -Ibland är särlösningar nödvändiga, men så långt som möjligt bör de ordinarie lösningarna fungera för alla. 
 -Det blir mer inkluderande och ofta billigare och bättre för alla.
 
 
-
 https://www.w3.org/WAI/standards-guidelines/wcag/
-
-På denna site används dessa tillgängligheter:
-
-- Guideline 1.4 – Distinguishable:
-    1.4.4 Resize text Level AA
-
-- Guideline 2.1 – Keyboard Accessible:
-    2.1.2 No Keyboard Trap Level A
-
-- Guideline 2.4 – Navigable:
-    2.4.2 Page Titled Level A
-
-    

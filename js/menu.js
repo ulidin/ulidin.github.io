@@ -1,3 +1,4 @@
+//Create the menu for all pages
 document.addEventListener('DOMContentLoaded', function(e) {
 
     let menuList = Object.create(menu);
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 })
 
-
+//Using nested object array for easier handle the changes in the future
 let menu = [{
         name: "HOME",
         url: "index.html",
