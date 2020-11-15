@@ -61,10 +61,21 @@ h1 {
     }
 }
 
+@keyframes colorChange {
+    from {
+        background-color: #c9c5c5;
+    }
+    to {
+        background-color: #ebe4e4;
+    }
+}
+
 .main-landingpage {
     height: 38em;
     background-image: linear-gradient(#c8c8cc, #f3f6f6);
     display: flex;
+    animation-name: colorChange;
+    animation-duration: 4s;
     >* {
         padding: 10px;
         display: block;
